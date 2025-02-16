@@ -253,8 +253,11 @@ header.sticky {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .itemfooter{
     flex-direction: column !important;
+  }
+  .home .home-text{
+    padding-left: 0;
   }
 }
